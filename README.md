@@ -20,10 +20,10 @@ Searching for a song will result in the artist or artists, song name, album name
 ![Song Result](/Images/liriEXSongResult.PNG)
 
 Searching for a artist's concerts results in the name of the venue, location and date for each upcoming result being display to the user and written to the log file.
-![Concert Result](/Images/liriEXConcertResult.PNG)
+![Concert Result](/Images/liriEXConcertResults.PNG)
 
 The 'Just do what it says' option simply reads instructions from a file, currently the random.txt file included in this repository; those instructions must be formatted as an action to perform and a term to search. The two values must be seperate by a single comma and no spaces, in the order of "action,term;" and actions can only have the values of 'Movie' 'Song' or 'Concert'. Appropriate results will then be display to the terminal and written to the log file.
 ![Reading from a File](/Images/liriEXDoWhatItSaysResult.PNG)
 
 The .js file must be run multiple times to get multiple results.
-![Multiple Results](/Images/liriExMultipleResults.PNG)
+![Multiple Results](/Images/liriEXMultipleResults.PNG)
