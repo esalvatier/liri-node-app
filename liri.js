@@ -146,7 +146,7 @@ function spotifyRequest(song) {
     names += data.tracks.items[0].artists[0].name;
     if (data.tracks.items[0].artists.length > 1) {
       for (var i = 1; i < data.tracks.items[0].artists.length; i++) {
-        names += data.tracks.items[0].artists[i].name;
+        names += ", " + data.tracks.items[0].artists[i].name;
       }
     }
     var spotifyResults = "\nArtist(s): " + names + "\nSong Name: " + data.tracks.items[0].name + "\nPreview URL: " + data.tracks.items[0].preview_url + "\nAlbum Name: " + data.tracks.items[0].album.name;
